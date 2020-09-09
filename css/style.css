@@ -81,7 +81,6 @@ main {
 
 .col-sx h2 {
   display: inline-block;
-  text-transform: capitalize;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -114,7 +113,6 @@ main {
 }
 
 .col-cntr h2 {
-  text-transform: capitalize;
   font-family: 'Roboto', sans-serif;
   text-shadow: 2px 2px rgb(0,0,0,0.5);
   margin-bottom: 10px;
@@ -135,7 +133,6 @@ main {
 }
 
 .widget h2 {
-  text-transform: capitalize;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 10px;
 }
@@ -151,7 +148,6 @@ footer {
   background: white;
   border-radius: 5px;
   color: #cecece;
-  text-transform: capitalize;
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
