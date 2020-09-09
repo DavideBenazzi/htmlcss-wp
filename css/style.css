@@ -53,9 +53,6 @@ nav {
   background: #cecece;
   background-size: cover;
 }
-
-
-
 /* corpo centrale */
 main::after {
   content:'';
@@ -63,24 +60,57 @@ main::after {
   clear:both;
 }
 
+main {
+  padding: 15px 0;
+}
+/* colonna sx */
 .col-sx {
-  height: 200px;
   width: 25%;
   background: white;
+  border-radius: 5px;
   float:left;
+}
+
+.col-sx i {
+  font-size: 30px;
+  color: orange;
+  margin: 5px;
+}
+
+.col-sx h2 {
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.col-sx li {
+  list-style: none;
+}
+
+.col-sx a {
+  text-decoration: none;
+  color: green;
+  font-size: 50px;
+  padding: 5px;
 }
 
 .col-cntr {
   height: 200px;
   width: 40%;
   background: white;
+  border-radius: 5px;
   float:left;
   margin: 0 5%;
 }
 
 .col-dx {
-  height: 200px;
+  height: 800px;
   width: 25%;
-  background: white;
   float:left;
+}
+
+.widget {
+  height: 200px;
+  background: white;
+  border-radius: 5px;
+  margin-bottom: 15px;
 }
