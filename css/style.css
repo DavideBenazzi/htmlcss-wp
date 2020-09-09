@@ -66,6 +66,12 @@ main {
   padding: 15px 0;
 }
 /* colonna sx */
+.icona-flotta {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .col-sx {
   width: 25%;
   background: white;
@@ -76,11 +82,12 @@ main {
 .col-sx i {
   font-size: 50px;
   color: orange;
+  float: left;
   margin: 5px;
 }
 
 .col-sx h2 {
-  display: inline-block;
+  float: left;
   color: #504741;
   font-family: 'Roboto', sans-serif;
   padding-bottom: 30px;
