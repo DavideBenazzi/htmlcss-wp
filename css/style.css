@@ -98,25 +98,35 @@ main {
 }
 /* colonna centrale */
 .col-cntr {
-  height: 200px;
   width: 40%;
   background: white;
   border-radius: 5px;
   float:left;
   margin: 0 5%;
+  padding: 5px;
 }
 
+.col-cntr h2 {
+  text-transform: capitalize;
+  text-shadow: 2px 2px rgb(0,0,0,0.5);
+  margin-bottom: 10px;
+}
+/* 2 colonne di dx */
 .col-dx {
-  height: 800px;
   width: 25%;
   float:left;
 }
 
 .widget {
-  height: 200px;
   background: white;
   border-radius: 5px;
   margin-bottom: 15px;
+  padding: 5px;
+}
+
+.widget h2 {
+  text-transform: capitalize;
+  margin-bottom: 10px;
 }
 /* footer */
 .social::after {
@@ -129,10 +139,8 @@ footer {
   padding: 15px;
   background: white;
   border-radius: 5px;
-  text-align: center;
-}
-
-.social {
+  color: #cecece;
+  text-transform: capitalize;
   text-align: center;
 }
 
@@ -140,5 +148,9 @@ footer {
   display: inline-block;
   float: left;
   font-size: 50px;
-  padding: 50px;
+  width: 33.333%;
+}
+
+.social i {
+  color: #cecece;
 }
