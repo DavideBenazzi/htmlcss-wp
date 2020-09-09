@@ -3,3 +3,60 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* background */
+body {
+  background-image: url("../img/natural-pattern.png");
+}
+/* contenuto */
+.contenitore {
+  width: 50%;
+  margin: 10px auto;
+}
+/* blocco superiore */
+header {
+  background-image: url("../img/natural-header.jpg");
+  height: 300px;
+  text-align: center;
+  border: 10px solid white;
+}
+
+header div img {
+  height: 250px;
+  width: 500px;
+}
+
+.titoletto {
+  font-size: 22px;
+  color: white;
+  font-weight: 700;
+}
+/* navigazione */
+
+/* corpo centrale */
+main::after {
+  content:'';
+  display: table;
+  clear:both;
+}
+
+.col-sx {
+  height: 200px;
+  width: 25%;
+  background: white;
+  float:left;
+}
+
+.col-cntr {
+  height: 200px;
+  width: 40%;
+  background: white;
+  float:left;
+  margin: 0 5%;
+}
+
+.col-dx {
+  height: 200px;
+  width: 25%;
+  background: white;
+  float:left;
+}
