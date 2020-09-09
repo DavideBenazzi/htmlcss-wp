@@ -81,6 +81,7 @@ main {
 
 .col-sx h2 {
   display: inline-block;
+  color: #504741;
   font-family: 'Roboto', sans-serif;
   padding-bottom: 30px;
 }
@@ -117,6 +118,7 @@ main {
 
 .col-cntr h2 {
   font-family: 'Roboto', sans-serif;
+  color: #504741;
   text-shadow: 2px 2px rgb(0,0,0,0.5);
   margin-bottom: 10px;
 }
@@ -137,6 +139,7 @@ main {
 
 .widget h2 {
   font-family: 'Roboto', sans-serif;
+  color: #504741;
   margin-bottom: 10px;
 }
 /* footer */
