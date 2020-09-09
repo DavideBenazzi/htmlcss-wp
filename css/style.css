@@ -86,7 +86,8 @@ main {
 
 .col-sx li {
   list-style: none;
-  line-height: 50px;
+  line-height: 25px;
+  padding: 10px;
 }
 
 .col-sx li:hover {
@@ -96,8 +97,9 @@ main {
 .col-sx a {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   color: green;
-  font-size: 50px;
+  font-size: 20px;
   padding: 5px;
 }
 /* colonna centrale */
@@ -107,7 +109,7 @@ main {
   border-radius: 5px;
   float:left;
   font-family: 'Roboto', sans-serif;
-  line-height: 20px;
+  line-height: 30px;
   margin: 0 5%;
   padding: 5px;
 }
@@ -125,7 +127,7 @@ main {
 
 .widget {
   font-family: 'Roboto', sans-serif;
-  line-height: 20px;
+  line-height: 30px;
   background: white;
   border-radius: 5px;
   margin-bottom: 15px;
