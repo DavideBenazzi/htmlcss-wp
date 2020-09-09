@@ -80,17 +80,19 @@ main {
 }
 
 .col-sx i {
-  font-size: 50px;
+  font-size: 30px;
   color: orange;
-  float: left;
   margin: 5px;
+  float: left;
 }
 
 .col-sx h2 {
-  float: left;
+  display: inline-block;
   color: #504741;
   font-family: 'Roboto', sans-serif;
-  padding-bottom: 30px;
+  font-size: 35px;
+  padding-bottom: 20px;
+  float: left;
 }
 
 .col-sx li {
