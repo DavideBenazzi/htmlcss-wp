@@ -6,6 +6,7 @@
 /* background */
 body {
   background-image: url("../img/natural-pattern.png");
+  background-size: cover;
 }
 /* contenuto */
 .contenitore {
@@ -15,6 +16,7 @@ body {
 /* blocco superiore */
 header {
   background-image: url("../img/natural-header.jpg");
+  background-size: cover;
   height: 300px;
   text-align: center;
   border: 10px solid white;
@@ -28,7 +30,7 @@ header div img {
 .titoletto {
   color: white;
   font-size: 30px;
-  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
 }
 /* collegamenti */
 nav {
@@ -46,7 +48,7 @@ nav {
 .collegamenti a {
   text-decoration: none;
   color: white;
-  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
 }
 
 .collegamenti li:hover {
@@ -80,10 +82,12 @@ main {
 .col-sx h2 {
   display: inline-block;
   text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
 }
 
 .col-sx li {
   list-style: none;
+  line-height: 50px;
 }
 
 .col-sx li:hover {
@@ -92,6 +96,7 @@ main {
 
 .col-sx a {
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
   color: green;
   font-size: 50px;
   padding: 5px;
@@ -102,12 +107,15 @@ main {
   background: white;
   border-radius: 5px;
   float:left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 20px;
   margin: 0 5%;
   padding: 5px;
 }
 
 .col-cntr h2 {
   text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
   text-shadow: 2px 2px rgb(0,0,0,0.5);
   margin-bottom: 10px;
 }
@@ -118,6 +126,8 @@ main {
 }
 
 .widget {
+  font-family: 'Roboto', sans-serif;
+  line-height: 20px;
   background: white;
   border-radius: 5px;
   margin-bottom: 15px;
@@ -126,6 +136,7 @@ main {
 
 .widget h2 {
   text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 10px;
 }
 /* footer */
@@ -141,6 +152,7 @@ footer {
   border-radius: 5px;
   color: #cecece;
   text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
@@ -149,6 +161,7 @@ footer {
   float: left;
   font-size: 50px;
   width: 33.333%;
+  padding: 15px;
 }
 
 .social i {
